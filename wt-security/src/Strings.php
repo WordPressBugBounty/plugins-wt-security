@@ -502,3 +502,5 @@ __('Description', 'wtotem');
 __('No files in quarantine', 'wtotem');
 __('No infected files found', 'wtotem');
 __('They are most likely in quarantine', 'wtotem');
+
+__('We have updated the API!<br>In order for the plugin to show up-to-date data, update it to version 3.0 or higher (support for the current version will cease on January 1, 2026).', 'wtotem');

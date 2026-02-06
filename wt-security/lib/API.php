@@ -228,6 +228,8 @@ class WebTotemAPI extends WebTotem
 
         }
 
+
+
         $scheme = is_ssl() ? 'https' : 'http';
 
         // If the site is not added then try to add.

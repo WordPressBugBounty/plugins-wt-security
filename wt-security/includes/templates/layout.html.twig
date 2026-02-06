@@ -146,6 +146,18 @@
         <div class="wtotem_container">
             <div class="wtotem_notifications_wrapper" id="wtotem_notifications">
                 {% include 'notifications.html.twig' with {'notifications': notifications, 'images_path': images_path } %}
+
+                <div class="wtotem_alert wt_card">
+                    <div class="wtotem_alert__desc">
+                        <div class="wtotem_alert__img">
+                            <img src="{{ images_path }}alert-warning.svg">
+                        </div>
+                        <div class="wtotem_alert__title wtotem_alert__title_yellow">{{ 'Warning'|trans }}: </div>
+                        <p class="wtotem_alert__text">{{ 'We have updated the API!<br>In order for the plugin to show up-to-date data, update it to version 3.0 or higher (support for the current version will cease on January 1, 2026).'|trans |raw }}</p>
+                    </div>
+                    <div class="wtotem_alert__close" ></div>
+                </div>
+
             </div>
         </div>
     </div>

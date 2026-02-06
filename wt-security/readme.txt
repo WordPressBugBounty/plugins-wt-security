@@ -7,7 +7,7 @@ License: GPLv3
 Tested up to: 6.6
 Requires PHP: 7.1
 Requires at least: 6.0
-Stable tag: 2.4.34
+Stable tag: 2.4.35
 
 WebTotem is a SaaS which provides powerful tools for securing and monitoring your website in one place in easy and flexible way.
 
@@ -86,6 +86,9 @@ It is impossible to completely delete a file marked as infected by an antivirus 
 4. Reports - Offers multiple tools to create reports.
 
 == Changelog ==
+= 2.4.35 =
+* Internal improvements
+
 = 2.4.34 =
 * Fixed twig conflict
 * Fixed the output of the details of the WAF attacks

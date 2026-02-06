@@ -6,7 +6,7 @@
  * Author: WebTotem Team
  * Text Domain: wtotem
  * Domain Path: /lang
- * Version: 2.4.34
+ * Version: 2.4.35
  * License: GPL v2 or later
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * PHP version 7.1
@@ -54,7 +54,7 @@ if (!defined('ABSPATH')) {
 /**
  * Current version of the plugin's code.
  */
-define('WEBTOTEM_VERSION', '2.4.34');
+define('WEBTOTEM_VERSION', '2.4.35');
 
 /**
  * The name of the folder where the plugin's files will be located.

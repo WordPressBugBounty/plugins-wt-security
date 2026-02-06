@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WebTotem Security\n"
-"POT-Creation-Date: 2024-07-01 19:12+0500\n"
+"POT-Creation-Date: 2025-10-06 10:55+0500\n"
 "PO-Revision-Date: \n"
 "Last-Translator: wtsec <info@wtotem.com>\n"
 "Language-Team: WebTotem Team\n"
@@ -12,10 +12,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
-"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.7\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: src\n"
 "X-Poedit-SearchPath-2: lib\n"
@@ -186,21 +186,17 @@ msgstr "Час"
 msgid "Minute"
 msgstr "Минута"
 
-#: lib/API.php:40
+#: lib/API.php:41
 msgid "Invalid API key"
 msgstr "Неверный API ключ"
 
-#: lib/API.php:171
+#: lib/API.php:244
 msgid "Failed to add the site to the WebTotem platform."
 msgstr "Не удалось добавить сайт на платформу WebTotem ."
 
-#: lib/API.php:291
+#: lib/API.php:364
 msgid "A new website has been added: "
 msgstr "Новый сайт был добавлен: "
-
-#: lib/API.php:1139
-msgid "Could not connect to feedback endpoint."
-msgstr "Не удалось подключиться к конечной точке обратной связи."
 
 #: lib/AgentManager.php:40
 msgid "There are no permissions to write to the root directory"
@@ -210,12 +206,12 @@ msgstr "Нет разрешений на запись в корневой кат
 msgid "Agent manager have been successfully installed"
 msgstr "Менеджер агентов успешно установлен"
 
-#: lib/AgentManager.php:65 lib/AgentManager.php:240
+#: lib/AgentManager.php:65 lib/AgentManager.php:307
 #, php-format
 msgid "Check %s folder's write permission."
 msgstr "Проверьте разрешение на запись в папку %s."
 
-#: lib/AgentManager.php:65 lib/AgentManager.php:240
+#: lib/AgentManager.php:65 lib/AgentManager.php:307
 #, php-format
 msgid " Read more <a href=\"%s\" target=\"_blank\">here</a>."
 msgstr " Прочитать подробнее можно <a href=\"%s\" target=\"_blank\">здесь</a>."
@@ -224,15 +220,15 @@ msgstr " Прочитать подробнее можно <a href=\"%s\" target=
 msgid "Error generating the agent manager file."
 msgstr "Ошибка при создании файла менеджера агентов."
 
-#: lib/AgentManager.php:184
+#: lib/AgentManager.php:247
 msgid "WP FileSystem path error"
 msgstr "Ошибка пути WP FileSystem"
 
-#: lib/AgentManager.php:211
+#: lib/AgentManager.php:278
 msgid "Could not download file."
 msgstr "Не удалось скачать файл."
 
-#: lib/AgentManager.php:221
+#: lib/AgentManager.php:288
 msgid "API: Response body is empty."
 msgstr "API: пустое тело ответа ."
 
@@ -1791,11 +1787,11 @@ msgstr "Технологии"
 msgid "Ports"
 msgstr "Порты"
 
-#: lib/Helper.php:931 src/Common.php:151 src/Strings.php:139
+#: lib/Helper.php:931 src/Common.php:153 src/Strings.php:139
 msgid "Firewall"
 msgstr "Файрвол"
 
-#: lib/Helper.php:932 src/Common.php:154 src/PageHandler.php:372
+#: lib/Helper.php:932 src/Common.php:156 src/PageHandler.php:372
 #: src/PageHandler.php:701 src/Strings.php:140
 msgid "Antivirus"
 msgstr "Антивирус"
@@ -1864,7 +1860,7 @@ msgstr "Ошибка:"
 msgid "Info:"
 msgstr "Инфо:"
 
-#: lib/Interface.php:157
+#: lib/Interface.php:180
 msgid ""
 "The WordPress CSRF check failed. The submitted form is missing an important "
 "unique code. Go back and try again."
@@ -1872,7 +1868,7 @@ msgstr ""
 "Проверка CSRF WordPress не удалась. В отправленной форме отсутствует важный "
 "уникальный код. Вернитесь и попробуйте еще раз."
 
-#: lib/Interface.php:224
+#: lib/Interface.php:247
 msgid ""
 "<strong>ERROR</strong>&nbsp;: Please check the ReCaptcha box or try to "
 "reload page."
@@ -1880,7 +1876,7 @@ msgstr ""
 "<strong>ОШИБКА</strong>&nbsp;: Пожалуйста, установите флажок reCAPTCHA или "
 "попробуйте перезагрузить страницу."
 
-#: lib/Interface.php:234
+#: lib/Interface.php:257
 msgid ""
 "<strong>CODE INVALID</strong>: The 2FA code provided is either expired or "
 "invalid. Please try again."
@@ -1888,7 +1884,7 @@ msgstr ""
 "<strong>НЕДОПУСТИМЫЙ КОД</strong>: Предоставленный код 2FA либо просрочен, "
 "либо недействителен. Пожалуйста, попробуйте снова."
 
-#: lib/Interface.php:325
+#: lib/Interface.php:348
 msgid ""
 "Are you sure you want to deactivate the plugin?<br>Don't worry, even after "
 "removing the plugin, our system will continue to protect your site: <ul "
@@ -1949,11 +1945,11 @@ msgstr ""
 "необязательными пробелами для удобства чтения. Ваши коды восстановления "
 "следующие:"
 
-#: lib/modules/logs/Crawler.php:137
+#: lib/modules/logs/Crawler.php:149
 msgid "by sitemap plugins"
 msgstr "из sitemap плагинов"
 
-#: lib/modules/logs/Crawler.php:205
+#: lib/modules/logs/Crawler.php:224
 msgid "Request execution error: "
 msgstr "Ошибка выполнения запроса: "
 
@@ -2221,43 +2217,43 @@ msgstr "Сканирование БД"
 msgid "File scan"
 msgstr "Сканирование файлов"
 
-#: src/Common.php:119
+#: src/Common.php:121
 msgid "Every few minutes"
 msgstr "Каждые несколько минут"
 
-#: src/Common.php:145
+#: src/Common.php:147
 msgid "All sites"
 msgstr "Все сайты"
 
-#: src/Common.php:149 src/Strings.php:138
+#: src/Common.php:151 src/Strings.php:138
 msgid "Dashboard"
 msgstr "Главная"
 
-#: src/Common.php:150 src/Strings.php:232
+#: src/Common.php:152 src/Strings.php:232
 msgid "Open paths"
 msgstr "Открытые пути"
 
-#: src/Common.php:155 src/Strings.php:141
+#: src/Common.php:157 src/Strings.php:141
 msgid "Settings"
 msgstr "Настройки"
 
-#: src/Common.php:157 src/Strings.php:142
+#: src/Common.php:159 src/Strings.php:142
 msgid "Reports"
 msgstr "Отчеты"
 
-#: src/Common.php:158 src/Strings.php:132
+#: src/Common.php:160 src/Strings.php:132
 msgid "Documentation"
 msgstr "Документация"
 
-#: src/Common.php:159
+#: src/Common.php:161
 msgid "WP scan"
 msgstr "WP scan"
 
-#: src/Common.php:176 src/Common.php:177
+#: src/Common.php:178 src/Common.php:179
 msgid "WebTotem"
 msgstr "WebTotem"
 
-#: src/Common.php:200 src/Common.php:201
+#: src/Common.php:202 src/Common.php:203
 msgid "Activation"
 msgstr "Активация"
 
@@ -3843,6 +3839,19 @@ msgstr "Зараженных файлов не обнаружено"
 #: src/Strings.php:504
 msgid "They are most likely in quarantine"
 msgstr "Скорее всего, они находятся на карантине"
+
+#: src/Strings.php:506
+msgid ""
+"We have updated the API!<br>In order for the plugin to show up-to-date data, "
+"update it to version 3.0 or higher (support for the current version will "
+"cease on January 1, 2026)."
+msgstr ""
+" Мы обновили API!<br>Чтобы плагин показывал актуальные данные, обновите его "
+"до версии 3.0 или выше (поддержка текущей версии прекратится 1 января 2026 "
+"года)."
+
+#~ msgid "Could not connect to feedback endpoint."
+#~ msgstr "Не удалось подключиться к конечной точке обратной связи."
 
 #~ msgid "Plugin is not active"
 #~ msgstr "Плагин не активирован"
